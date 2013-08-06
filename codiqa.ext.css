@@ -12,3 +12,7 @@
   background-position:center center;
   background-size: 90%, cover;
 }*/
+
+img {
+  width: 100%;
+}
