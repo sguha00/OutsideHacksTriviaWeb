@@ -3,5 +3,12 @@
   background: url(images/background.png);
   background-repeat:no-repeat;
   background-position:center center;
-  background-size:cover;  
+  background-size:cover;
 }
+
+/*#page1 {
+  background:  url(images/Home_Text.png), url(images/background.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size: 90%, cover;
+}*/
