@@ -17,7 +17,24 @@ img {
   width: 100%;
 }
 
-.ui-bar-a {
+.ui-bar-a, .ui-btn {
 	border: none;
 	background: transparent;
+}
+
+.ui-footer {
+	position: absolute;
+	bottom: 0;
+}
+.ui-footer a {
+	width: 100%;
+}
+
+.ui-footer, .ui-btn-inner {
+	width: 100%;
+	padding: 0 !important;
+}
+
+.ui-corner-all, .ui-btn-corner-all {
+	border-radius: 0;
 }
