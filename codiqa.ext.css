@@ -24,7 +24,7 @@ img {
 
 .ui-footer {
 	position: absolute;
-	bottom: 0;
+	bottom: -4px;
 }
 .ui-footer a {
 	width: 100%;
