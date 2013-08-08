@@ -1,6 +1,7 @@
 // Put your custom code here
 
 $(function () {
+  
 
 	function buildStart( urlObj, options )
 	{
@@ -74,4 +75,13 @@ $(function () {
 			}
 		}
 	});
+});
+
+// When ready...
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
 });
