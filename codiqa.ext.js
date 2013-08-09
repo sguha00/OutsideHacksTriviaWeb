@@ -29,9 +29,9 @@ $(function () {
         $content.find(".buttons").html("<img src='images/Locked.png'>");
       } else {
         var buttons = 
-          "<a href='#"+roundName + "-easy'</a><img src='images/easy.png'></a>" + 
-          "<a href='#"+roundName + "-tough'</a><img src='images/tough.png'></a>" +
-          "<a href='#"+roundName + "-superfan'</a><img src='images/superfan.png'></a>";
+          "<a href='#question'</a><img src='images/easy.png'></a>" + 
+          "<a href='#question'</a><img src='images/tough.png'></a>" +
+          "<a href='#question'</a><img src='images/superfan.png'></a>";
           
         debugger; 
         $content.find(".buttons").html(buttons);
