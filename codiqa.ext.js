@@ -1,7 +1,6 @@
 // Put your custom code here
 
 $(function () {
-  
 
   function buildStart( urlObj, options )
   {
@@ -30,9 +29,9 @@ $(function () {
         $content.find(".buttons").html("<img src='images/Locked.png'>");
       } else {
         var buttons = 
-          "<a href='#"+roundName + "-1'</a><img src='images/easy.png'></a>" + 
-          "<a href='#"+roundName + "-2'</a><img src='images/tough.png'></a>" +
-          "<a href='#"+roundName + "-3'</a><img src='images/superfan.png'></a>";
+          "<a href='#"+roundName + "-easy'</a><img src='images/easy.png'></a>" + 
+          "<a href='#"+roundName + "-tough'</a><img src='images/tough.png'></a>" +
+          "<a href='#"+roundName + "-superfan'</a><img src='images/superfan.png'></a>";
           
         debugger; 
         $content.find(".buttons").html(buttons);
